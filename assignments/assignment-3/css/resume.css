@@ -1,0 +1,23 @@
+body {
+  background: #252623;
+}
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+iframe {
+  position: fixed;
+  top: 30px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+iframe:focus {
+  outline: none;
+}
+
+iframe[seamless] {
+  display: block;
+}

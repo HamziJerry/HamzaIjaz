@@ -1,0 +1,260 @@
+/* fonts
+
+font-family: 'Baloo 2', cursive;
+font-family: 'Lora', serif; */
+
+body {
+  margin: 0;
+  font-size: 1.125rem;
+  font-family: "Baloo 2", cursive;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* =============
+Typography
+============= */
+
+h1,
+h2,
+h3 {
+  font-family: "Lora", serif;
+}
+
+h1 {
+  font-size: 3.5rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+#navbar a {
+  font-size: 1.5rem;
+}
+
+#welcome-section-content p {
+  font-size: 2rem;
+  margin: 0;
+  color: #bb2020;
+}
+
+/* ==========
+Layout
+========== */
+
+/* navigation */
+
+#navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2);
+  background-color: #bb2020;
+}
+
+#navbar ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1em 1.5em;
+}
+
+#navbar a {
+  text-decoration: none;
+  padding: 0.8em;
+  color: white;
+}
+
+#navbar a:hover,
+#navbar a:focus {
+  background-color: #06111cde;
+}
+
+/* welcome section */
+
+#welcome-section {
+  width: 100%;
+  background: #252623;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#welcome-section-content {
+  text-align: center;
+}
+
+/* project section */
+
+#projects {
+  background: #68788c;
+  width: 100%;
+  color: white;
+  padding: 2.5em 0em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#projects-header {
+  max-width: 640px;
+  width: 90%;
+  border-bottom: 2px solid white;
+  margin: 0.5em auto 1.5em auto;
+  padding: 0.5em 0.2em;
+  border-radius: 2px;
+}
+
+#project-grid {
+  width: 90%;
+}
+
+.project-tile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5em 0;
+}
+
+.project-tile a {
+  text-decoration: none;
+  color: white;
+  background: #202731;
+}
+
+.project-tile h3 {
+  width: 100%;
+  height: 10%;
+  background: #202731;
+  margin: 0;
+  padding: 1em 0;
+}
+
+.project-tile h3:hover,
+.project-tile h3:focus {
+  color: #bb2020;
+}
+
+.project-tile img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.show-btn {
+  padding: 1em 2em;
+  outline: none;
+  margin: 1em;
+  color: white;
+  font-weight: bold;
+  background: #202731;
+}
+
+.show-btn:hover,
+.show-btn:focus {
+  background: #bb2020;
+}
+
+/* contact section */
+
+#contact {
+  background-color: #2c323b;
+  color: white;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact h2 {
+  font-size: 3.5rem;
+  margin: 0 auto;
+  text-align: center;
+  width: 95%;
+}
+
+#contact p {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+#contact-links {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#contact-links a {
+  font-size: 1.5rem;
+  margin: 0.5rem 1rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#contact-links a i {
+  margin: 0 0.3em;
+}
+
+#contact-links a:hover,
+#contact-links a:focus {
+  transform: skewY(4deg);
+}
+
+/* footer  */
+
+#footer {
+  border-top: 5px solid #bb2020;
+  background: #2c323b;
+  padding: 1em 0;
+}
+
+#footer p {
+  text-align: center;
+  color: white;
+  font-size: 1.3rem;
+}
+
+/* responsiveness */
+
+@media (min-width: 730px) {
+  #navbar ul {
+    padding: 1em 2em;
+  }
+
+  #project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .project-tile {
+    width: 48%;
+    margin: 0;
+    margin-bottom: 1.5em;
+  }
+}
+
+@media (min-width: 1090px) {
+  .project-tile {
+    width: 32%;
+  }
+}

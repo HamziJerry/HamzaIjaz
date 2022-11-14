@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  font-family: cursive;
+}
+
+form {
+  border: 1px solid blue;
+  margin: 1em;
+  padding: 1em;
+  width: 30%;
+  height: 150px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+form label {
+  font-size: 1.5rem;
+}
+
+.password {
+  height: 30%;
+  font-size: 1.2rem;
+}
+
+.submit {
+  font-size: 1.2rem;
+  padding: 0.5em;
+  outline: none;
+  border: none;
+  background-color: gainsboro;
+}
+
+.submit:hover {
+  background: rgba(0, 0, 255, 0.614);
+  color: white;
+}
