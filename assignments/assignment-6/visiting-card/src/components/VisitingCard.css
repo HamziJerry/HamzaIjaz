@@ -1,0 +1,145 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: gainsboro;
+}
+
+.card-background {
+  width: 450px;
+  height: 250px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  overflow: hidden;
+}
+
+.upper-bg {
+  width: 100%;
+  height: 85%;
+  background: white;
+  display: flex;
+}
+
+.left {
+  width: 55%;
+  height: 100%;
+}
+
+.left-upper {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.left-upper img {
+  border-radius: 50%;
+  border: 2px solid seagreen;
+}
+
+.left-upper h2 {
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 1;
+}
+
+.left-upper p {
+  font-size: .6rem;
+  letter-spacing: .15rem;
+  margin: 0;
+}
+
+.left-lower {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-lower img {
+  border: 4px solid seagreen;
+  border-radius: 2px;
+}
+
+.right {
+  width: 45%;
+  height: 100%;
+  border: 2px solid blue;
+}
+
+.right-upper {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 100%;
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border: 2px solid red;
+}
+
+.owner-name {
+  width: 100%;
+  display: flex;
+  font-size: 1.5rem;
+}
+
+.owner-name .firstName {
+  margin-right: .2em;
+}
+.right-upper p {
+  font-size: 1rem;
+  margin: 0;
+  margin-top: -5px;
+  padding: 0; 
+}
+.line {
+  border: 2px solid seagreen;
+  width: 30px;
+  border-radius: 5px;
+  margin-top: 2px;
+}
+
+.right-lower {
+  width: 100%;
+  height: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border: 2px solid yellow;
+}
+
+.right-lower .detail-group {
+  display: flex;
+  align-items: space-between;
+  margin: .1em;
+}
+.detail-group .circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: seagreen;
+}
+
+.right-lower .detail {
+  text-align: left;
+  width: auto;
+  border: 2px solid red;
+  font-size: .7rem;
+}
+
+.stripe {
+  width: 100%;
+  height: 15%;
+  background: rgb(44, 44, 49);
+  border-top: 5px solid seagreen;
+}

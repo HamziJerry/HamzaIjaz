@@ -1,3 +1,3 @@
 # Hamza Ijaz
 
-## *Mern Bootcamp* by ***Bitsol Technologies*** learning and practice repository. 
+*Mern Bootcamp* by ***Bitsol Technologies*** learning and practice repository. 
