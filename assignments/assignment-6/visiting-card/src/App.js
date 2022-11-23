@@ -1,6 +1,5 @@
 import VisitingCard from "./components/VisitingCard";
-import './App.css';
-
+import "./App.css";
 
 function App() {
   return (

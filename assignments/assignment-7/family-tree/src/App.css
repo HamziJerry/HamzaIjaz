@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+body {
+  margin: 0;
+  width: 0;
+  box-sizing: border-box;
+  background: #F2F0F0;
+  /* background: black; */
+  font-family: 'Baloo 2', cursive;
+  padding: 1em;
+  overflow-x: hidden;
+}
+
+.App {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.familyTree {
+  width: 60%;
+  text-align: center;
+}
+
+.grandParent {
+  border-radius: 1em;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background: #64b5f6;
+}
+
+.children {
+  border-radius: 1em;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  margin: 1em;
+  background: #F2889B;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.grandChildren {
+  border-radius: 1em;
+  padding: 1em;
+  width: 50%;
+  margin: 1em;
+  background:#9CD9CE;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Lora', serif;
+}
+
+h1 {
+  color: rgb(244, 170, 33);
+  font-size: 3rem;
+}
+
+h2 {
+  color: white;
+  font-size: 1.8rem;
+}
+
+h3 {
+  color: white;
+  font-size: 1.5rem;
+}
+
+h4 {
+  color: white;
+  font-size: 1.2rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+em {
+  color: white;
+}
