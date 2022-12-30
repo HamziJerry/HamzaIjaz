@@ -1,0 +1,24 @@
+{
+  "shoes": [
+    {
+      "id": 1,
+      "name": "Jordan"
+    },
+    {
+      "id": 2,
+      "name": "Chuck Taylor"
+    },
+    {
+      "id": 3,
+      "name": "Leather"
+    },
+    {
+      "id": 4,
+      "name": "Louis Vuitton"
+    },
+    {
+      "id": 5,
+      "name": "Outfitters"
+    }
+  ]
+}

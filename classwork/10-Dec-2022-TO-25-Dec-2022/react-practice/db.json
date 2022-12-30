@@ -1,0 +1,83 @@
+{
+  "shoes": [
+    {
+      "id": 1,
+      "name": "Jordan",
+      "price": "9000 PKR"
+    },
+    {
+      "id": 2,
+      "name": "Chuck Taylor",
+      "price": "35000 PKR"
+    },
+    {
+      "id": 3,
+      "name": "Leather",
+      "price": "8000 PKR"
+    },
+    {
+      "id": 4,
+      "name": "Louis Vuitton",
+      "price": "200000 PKR"
+    },
+    {
+      "id": 5,
+      "name": "Outfitters",
+      "price": "70000 PKR"
+    }
+  ],
+  "cars": [
+    {
+      "id": 1,
+      "maker": "Mercedes Benz",
+      "model": "2019"
+    },
+    {
+      "id": 2,
+      "maker": "Rolls Royce",
+      "model": "2022"
+    },
+    {
+      "id": 3,
+      "maker": "Lamborghini cyan",
+      "model": "2021"
+    },
+    {
+      "id": 4,
+      "maker": "Bugatti",
+      "model": "2020"
+    },
+    {
+      "id": 5,
+      "maker": "Bentley GT",
+      "model": "2018"
+    },
+    {
+      "maker": "honda civic",
+      "model": "2013",
+      "id": 6
+    },
+    {
+      "maker": "Honda",
+      "model": "23",
+      "id": 7
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
